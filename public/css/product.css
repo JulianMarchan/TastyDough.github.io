@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    background-image: url(/image/navbarbg.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    justify-content:space-between;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+@font-face {
+    font-family: Monte;
+    src: url(/fonts/Monteserrat.ttf);
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(/fonts/Gloock.ttf);
+}
+
+.navbar ul li a{
+    font-family: Monte;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li ::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover ::after{
+    width: 100%;
+}
+.offer{
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.offer h1{
+    font-family: myFont;
+    font-size: 60px;
+    letter-spacing: 3px;
+    color: white;
+    font-weight: 300;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction:row;
+    flex-flow: wrap;
+    justify-content: center;
+    background-color: #fff1e0;
+}
+.card-container{
+    width: 120vh;
+    height: 50vh;
+    padding: 50px;
+
+}
+.image-container{
+    position: relative;
+    width:500px; 
+    height:auto;
+}
+.card-content{
+    float: right;
+    width: 60vh;
+    height: 45vh;
+}
+@font-face {
+    font-family: sword;
+    src: url(/fonts/Blacksword.otf);
+}
+@font-face {
+    font-family: Monte;
+    src: url(/fonts/Monteserrat.ttf);
+}
+
+
+.card-content h1{
+    color: #a77346;
+    font-family: sword;
+    font-size: 70px;
+}
+.card-content h2{
+    font-family: Monte;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.card-content p{
+    width: 50vh;
+    margin-left: 5vh;
+    font-family: Monte;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.footer{
+    background-color: rgb(19, 19, 19);
+    height: auto;
+    width: 100vw;
+    font-family: Monte;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #121212;
+}
+
+.footer-content h3{
+    font-family: Monte;
+    padding-top: 10px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: white;
+}
+
+.footer-content p{
+    font-family: Monte;
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: white;
+
+}
+
+.social{
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.social li{
+    margin: 0 10px;
+
+}
+
+.social a{
+    text-decoration: none;
+    color: #fff;
+}
+.social a i{
+    font-size: 1.1rem;
+
+}
+.social a:hover i{
+    color: rgb(252, 186, 19);
+}
+
+.footer-bottom{
+    background:#000;
+    width:100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: #fff;
+
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-content span{
+    font-size: 18px;
+    font-family: Monte;
+    font-weight: bold;
+}
+.footer-content p{
+    font-family: Monte;
+}
+
+#menu-icon{
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+
+@media (max-width: 1280px)
+{
+    .navbar{
+        padding: 5x 0;
+        margin: 0px 20px;
+    } 
+    .image-container{
+        width: 300px;
+    }
+    .card-content h1{
+        
+        font-size: 30px;
+    }
+    .card-content h2{
+        font-size: 15px;
+    }
+    .offer h1{
+        position: absolute;
+        margin-top: 2%;
+        left: 30%;
+        font-size: 50px;
+        z-index: 1;
+    } 
+    .image-container{
+        width: 400px;
+    }
+
+}
+
+
+@media (max-width: 1090px)
+{
+    #menu-icon{
+        display: block;
+        position: absolute;
+        padding-left: 10px;
+    }
+    .icon{
+        position: absolute;
+        top: 4%;
+        right: 7vh;
+        float: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .navlist{
+        position: absolute;
+        z-index: 1;
+        right: 2%;
+        width: 200px;
+        height: 24vh;
+        display: none;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 10px;
+        transition: all .50s ease;
+        background-color: #733f11;
+    }
+    .navbar ul{
+        display: block;
+        margin: auto;
+        height: 14vh;
+        width: 200px;
+        padding: 10px;
+       
+    }
+    .navbar li{
+        padding: 10px;
+    }
+    .navbar ul li:hover ::after{
+        width: 100%;
+        display: none
+    }
+    .navlist.open{
+        display: flex;
+        transition: all .50s ease;
+    }
+    /* .offer h1{
+        position: absolute;
+        margin-top: 10%;
+        left: 30%;
+        font-size: 50px;
+        z-index: 1;
+    } */
+    .image-container{
+        width: 300px;
+    }
+    .card-content h1{
+        font-size: 40px;
+    }
+    .card-content h2{
+        font-size: 15px;
+    }
+    .card-content p{
+        font-size: 12px;
+    }
+    .offer{
+        display: none;
+    }
+   
+}
