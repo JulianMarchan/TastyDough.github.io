@@ -116,7 +116,6 @@
     #menu-icon{
         display: block;
         position: absolute;
-        padding-left: 10px;
     }
     .icon{
         position: absolute;
@@ -130,8 +129,7 @@
 
     .navbar{
         float: right;
-        top: 100%;
-        right: -100%;
+        margin-top: 10px;
         width: 200px;
         height: 29vh;
         display: none;

@@ -36,17 +36,17 @@
         
         <div class="card-container">
             <div class="card-header">Delicious Cookies</div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione doloribus, debitis dicta architecto minus id esse accusamus velit nobis quos perferendis suscipit hic aliquid..</p>
+                <p>We offer freshly baked cookies made with sweet yet no added preservativs or colouring, we use only the best ingredients to create cookies that is healthy and enjoyable!</p>
             </div>
            
         <div class="card-container">
             <div class="card-header">Special Cakes</div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione doloribus, debitis dicta architecto minus id esse accusamus velit nobis quos perferendis suscipit hic aliquid..</p>
+                <p>We made cakes that is rich in sweet that can vary depending on accompanied inclusion and flavors, coming with different textures, shapes and color perfect as snack or serving in size portion for special occasions</p>
             </div>
            
             <div class="card-container">
                 <div class="card-header">Personal Request</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione doloribus, debitis dicta architecto minus id esse accusamus velit nobis quos perferendis suscipit hic aliquid..</p>
+                    <p>We accept personal request on how they want the cookies or cakes looks, taste and be serve just contact us on our social media pages for more information </p>
                 </div>
                
      </div>

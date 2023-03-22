@@ -38,7 +38,7 @@
                     <H1>Delicious</H1>
                     <h2>Choc'o Flakes</h2>
                     <br>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum tenetur mollitia qui explicabo totam commodi laborum, aut quisquam quas. Tenetur temporibus soluta obcaecati delectus veniam quasi repellat voluptatem? Minima, vitae.</p>
+                    <p>Made with real cocoa for an authentic, rich flavour, these delicious choco flakes are the perfect finishing touch to add a tantalising taste to your bakes and desserts. </p>
                 </div>
         </div>
         <div class="card-container">
@@ -47,7 +47,7 @@
                 <H1>Fresh</H1>
                 <h2>Chocolate Chips</h2>
                 <br>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum tenetur mollitia qui explicabo totam commodi laborum, aut quisquam quas. Tenetur temporibus soluta obcaecati delectus veniam quasi repellat voluptatem? Minima, vitae.</p>
+                <p>Miniature bits chocolate chips that is freshly baked made with sweetened chocolate, cips and muffins that is a good pair with milk and good for snacks!</p>
             </div>
         </div>
         <div class="card-container">
@@ -56,7 +56,7 @@
             <H1>Special</H1>
             <h2>Messy Cookies</h2>
             <br>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum tenetur mollitia qui explicabo totam commodi laborum, aut quisquam quas. Tenetur temporibus soluta obcaecati delectus veniam quasi repellat voluptatem? Minima, vitae.</p>
+            <p>Chocolate chips filled with sweetened chocolate a mouth watering dessert, crunchy yet soft muffins best when shared with friends</p>
         </div>
         </div>
         <footer>
